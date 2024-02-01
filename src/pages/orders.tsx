@@ -5,11 +5,10 @@ import { Link } from "react-router-dom";
 import { Column } from "react-table";
 import TableHOC from "../components/admin/TableHOC";
 
-import { CustomError } from "../types/api-types";
-import { UserReducerIntialState } from "../types/reducer-types";
-import { useMyOrdersQuery } from "../redux/api/orderApi";
 import { SkeletonLoader } from "../components/Loader";
+import { useMyOrdersQuery } from "../redux/api/orderApi";
 import { RootState } from "../redux/store";
+import { CustomError } from "../types/api-types";
 
 type DataType = {
   _id: string;

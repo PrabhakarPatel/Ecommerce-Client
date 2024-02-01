@@ -7,9 +7,8 @@ import { SkeletonLoader } from "../../components/Loader";
 import AdminSidebar from "../../components/admin/AdminSidebar";
 import TableHOC from "../../components/admin/TableHOC";
 import { useAllOrdersQuery } from "../../redux/api/orderApi";
-import { CustomError } from "../../types/api-types";
-import { UserReducerIntialState } from "../../types/reducer-types";
 import { RootState } from "../../redux/store";
+import { CustomError } from "../../types/api-types";
 
 interface DataType {
   user: string;
